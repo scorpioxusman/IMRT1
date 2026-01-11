@@ -1,3 +1,14 @@
-git add package.json package-lock.json
-git commit -m "Add dotenv to dependencies"
-git push origin main
+{
+  "name": "imrt-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot for IMRT",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  }
+}
